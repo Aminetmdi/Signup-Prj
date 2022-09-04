@@ -1,0 +1,48 @@
+form {
+display: flex;
+height: 100vh;
+align-items: center;
+justify-content: center;
+}
+
+form .form{
+    display: flex;
+    flex-direction: column;
+}
+.form .logo{
+    margin-bottom: 3rem !important;
+    width: 200px;
+    margin: 0 auto;
+}
+.form input{
+    width: 280px;
+    margin: 1rem;
+    height: 43px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 4px 4px 5px gray;
+    outline: none;
+    padding: 0 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+button{
+    width: 317px;
+    margin: 1rem;
+    height: 43px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 4px 4px 5px gray;
+    outline: none;
+    padding: 0 20px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.form p{
+    font-size: 11px;
+    font-weight: bold;
+    margin: 0 1rem;
+}
